@@ -673,7 +673,7 @@ p {
     max-width: 320px;
     margin-right: auto;
     margin-left: auto;
-    font-size: 14px;
+    font-size: 15px;
     line-height: 1.55;
   }
 
@@ -746,14 +746,14 @@ p {
     max-width: 330px;
     margin-right: auto;
     margin-left: auto;
-    font-size: 19px;
+    font-size: 20px;
     line-height: 1.2;
   }
 
   .section-features .section-heading p,
   .section-app .section-heading p,
   .section-team .section-heading p {
-    font-size: 14px;
+    font-size: 15px;
     line-height: 1.55;
   }
 
@@ -779,7 +779,7 @@ p {
   .phone-row p,
   .team-grid p,
   .section-process .process-grid p {
-    font-size: 8px;
+    font-size: 15px;
   }
 
   .section-benefits {

@@ -753,7 +753,7 @@ p {
   .section-features .section-heading p,
   .section-app .section-heading p,
   .section-team .section-heading p {
-    font-size: 15px;
+    font-size: 19px;
     line-height: 1.55;
   }
 
@@ -779,7 +779,7 @@ p {
   .phone-row p,
   .team-grid p,
   .section-process .process-grid p {
-    font-size: 16px;
+    font-size: 15px;
   }
 
   .section-benefits {

@@ -750,7 +750,11 @@ p {
     line-height: 1.2;
   }
 
-  .section-features .section-heading p,
+  .section-features .section-heading p {
+    font-size: 15px;
+    line-height: 1.55;
+  }
+
   .section-app .section-heading p,
   .section-team .section-heading p {
     font-size: 19px;

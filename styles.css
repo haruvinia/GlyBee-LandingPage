@@ -778,9 +778,13 @@ p {
 
   .phone-row p,
   .team-grid p,
-  .card-grid about-cards benefit-cards p,
   .section-process .process-grid p {
     font-size: 15px;
+  }
+
+  .about-cards p,
+  .benefit-cards p {
+    font-size: 14px;
   }
 
   .section-benefits {

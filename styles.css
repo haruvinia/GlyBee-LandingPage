@@ -416,6 +416,27 @@ p {
   padding: 86px 0 96px;
 }
 
+.section-video {
+  padding: 90px 0 98px;
+  background: var(--white);
+}
+
+.video-frame {
+  width: min(100%, 720px);
+  aspect-ratio: 16 / 9;
+  margin: 0 auto;
+  overflow: hidden;
+  border-radius: 8px;
+  background: #000000;
+  box-shadow: 0 18px 36px rgba(0, 1, 66, 0.16);
+}
+
+.video-frame iframe {
+  display: block;
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
 .media-grid {
   gap: 24px;
 }
@@ -561,6 +582,11 @@ p {
   object-fit: contain;
   pointer-events: none;
 }
+.terms-page-main {
+  min-height: calc(100vh - 92px - 146px);
+  padding-top: 92px;
+  background: var(--white);
+}
 .institutional-footer {
   background: #171717;
   padding: 24px 0 22px;
@@ -606,6 +632,34 @@ p {
   font-weight: 600;
 }
 
+.footer-terms-link,
+.footer-contact-link {
+  color: var(--white);
+  font-size: 16px;
+  line-height: 1.22;
+  font-weight: 400;
+}
+
+.footer-terms-link {
+  display: inline-block;
+  margin-top: 4px;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+.footer-contact-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 7px;
+}
+
+.footer-contact-link svg {
+  flex: 0 0 18px;
+  width: 18px;
+  height: 18px;
+  fill: currentColor;
+}
 .institutional-footer .footer-school {
   margin: 0 0 7px;
   color: var(--white);
@@ -759,6 +813,7 @@ p {
   .section-about,
   .section-benefits,
   .section-app,
+  .section-video,
   .section-process,
   .section-team {
     padding-right: 0;
@@ -823,6 +878,23 @@ p {
     padding-bottom: 82px;
   }
 
+  .section-video {
+    padding-top: 76px;
+    padding-bottom: 84px;
+  }
+
+  .section-video .section-heading h2 {
+    max-width: 330px;
+    margin-right: auto;
+    margin-left: auto;
+    font-size: 20px;
+    line-height: 1.2;
+  }
+
+  .section-video .section-heading p {
+    font-size: 15px;
+    line-height: 1.55;
+  }
   .phone-row {
     grid-template-columns: repeat(2, minmax(0, 1fr));
     gap: 18px;
@@ -891,6 +963,10 @@ p {
   .footer-woman {
     display: none;
   }
+  .terms-page-main {
+    min-height: calc(100vh - 76px - 118px);
+    padding-top: 76px;
+  }
   .institutional-footer {
     padding: 12px 0 10px;
   }
@@ -923,6 +999,22 @@ p {
     font-size: 8px;
   }
 
+  .footer-terms-link,
+  .footer-contact-link {
+    font-size: 9px;
+    line-height: 1.16;
+  }
+
+  .footer-contact-link {
+    gap: 4px;
+    margin-bottom: 4px;
+  }
+
+  .footer-contact-link svg {
+    flex-basis: 10px;
+    width: 10px;
+    height: 10px;
+  }
   .institutional-footer .footer-school {
     margin: 0 0 4px;
     font-size: 10px;
